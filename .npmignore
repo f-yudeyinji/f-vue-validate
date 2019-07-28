@@ -1,0 +1,20 @@
+node_modules/
+examples/
+packages/
+public/
+tests/
+.browserslistrc
+.editorconfig
+.eslintrc.js
+.gitignore
+vue.config.js
+babel.config.js
+postcss.config.js
+.git
+
+# Log files
+npm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode

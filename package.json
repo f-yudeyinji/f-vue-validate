@@ -1,12 +1,19 @@
 {
   "name": "f-vue-validate",
   "version": "0.1.0",
-  "private": true,
+  "main": "lib/f-vue-validate.umd.min.js",
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fyiloutingfengyu/f-vue-validate.git"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit",
+    "lib": "vue-cli-service build --target lib --name f-vue-validate --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^2.6.5",
