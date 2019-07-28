@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>这是该表单校验组件的demo</h1>
+    <example></example>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+  import Example from './components/example.vue'
 
-export default {
+  export default {
   name: 'app',
   components: {
-    HelloWorld
+    Example
   }
 }
 </script>
